@@ -251,11 +251,11 @@ In this project, we propose to investigate with bioinformatic methods the charac
 		<key>Synopsis</key>
 		<string></string>
 		<key>Text</key>
-		<string>Selenium has been considered for a long time as a toxic element for organisms. Selenium is incorporated in particular proteins called selenoproteins, in the form of selenocysteine ( Sec, U ).
-As its name suggests Sec is basically a cysteine ( Cys ) in which sulphur is replaced by selenium. This confers to selenocysteine a higher reactivity ( pKaSec = 5.2 ; pKaCys = 8.3 ) {Fomenko et al., 2007, Science, 315, 387-9}. Sec is incorporated in a co-translational manner, at the position of specific UGA codons, which normally encodes for stop {Stadtman, 1996, Annu Rev Biochem, 65, 83-100}. The insertion of Sec at a specific UGA location is achieved by a complex machinery. Although this machinery varies among distant phyla (most notably between prokaryotes and eukaryotes), the basics remain the same. The recognition between a Sec-UGA codon and a Stop-UGA codon is a key event in selenoprotein biosynthesis. Indeed, a stop codon should not be read-through by the machinery, and a Sec codon should not be interpreted as a stop codon. To achieve this kind of behavior, a particular structure called Sec Insertion Sequence ( SECIS ) is present in the RNA coding for selenoproteins {Krol, 2002, Biochimie}. SECIS elements are basically stem-loop structures with either 1 or 2 loops depending of the type (Figure &lt;$n:figure:typeSECIS&gt;) {Chapple et al., 2009, Bioinformatics; Krol, 2002, Biochimie}. How exactly the SECIS element drives the reading of a Sec-UGA codon is still unknown, but several selenoprotein synthesis specific factors bind to it and / or to the translational machinery {Allmang et al., 2009, Biochim Biophys Acta, 1790, 1415-23}, making it a key element in decoding UGA codons.
+		<string>Selenium has been considered for a long time as a toxic element for organisms. Selenium is incorporated in particular proteins called selenoproteins, in the form of selenocysteine (Sec, U).
+As its name suggests Sec is basically a cysteine (Cys) in which sulphur is replaced by selenium. This confers to selenocysteine a higher reactivity (pKaSec = 5.2 ; pKaCys = 8.3) {Fomenko et al., 2007, Science, 315, 387-9}. Sec is incorporated in a co-translational manner, at the position of specific UGA codons, which normally encodes for stop {Stadtman, 1996, Annu Rev Biochem, 65, 83-100}. The insertion of Sec at a specific UGA location is achieved by a complex machinery. Although this machinery varies among distant phyla (most notably between prokaryotes and eukaryotes), the basics remain the same. The recognition between a Sec-UGA codon and a Stop-UGA codon is a key event in selenoprotein biosynthesis. Indeed, a stop codon should not be read-through by the machinery, and a Sec codon should not be interpreted as a stop codon. To achieve this kind of behavior, a particular structure called Sec Insertion Sequence (SECIS) is present in the RNA coding for selenoproteins {Krol, 2002, Biochimie}. SECIS elements are basically stem-loop structures with either 1 or 2 loops depending of the type (Figure &lt;$n:figure:eukSECIS&gt;) {Chapple et al., 2009, Bioinformatics; Krol, 2002, Biochimie}. How exactly the SECIS element drives the reading of a Sec-UGA codon is still unknown, but several selenoprotein synthesis specific factors bind to it and / or to the translational machinery {Allmang et al., 2009, Biochim Biophys Acta, 1790, 1415-23}, making it a key element in decoding UGA codons.
 
 ￼
-Figure &lt;$n:figure:typesSECIS&gt; : The two types of SECIS elements found in eukaryotes. The Non-Watson-Crick quartet gives the particular secondary structure to the SECIS elements. Adapted from {Krol, 2002, Biochimie}
+Figure &lt;$n:figure:eukSECIS&gt; : The two types of SECIS elements found in eukaryotes. The Non-Watson-Crick quartet gives the particular secondary structure to the SECIS elements. Adapted from {Krol, 2002, Biochimie}
 
 Mono-selenophosphate (SePh), the donor compound of selenium (Se) necessary for the synthesis of Sec, is formed by the selenophosphate synthetase (SPS), from either selenite (SeO3) or Se2- {Allmang and Krol, 2006, Biochimie}. It has been shown that Sec is synthesized from serine in a multi-step reaction: Ser-tRNA[Sec] is phosphorylated by a phosphoseryl tRNA Kinase (PSTK) and converted to Sec-tRNA[Sec] by Sec synthetase (SecS) {Squires and Berry, 2008, IUBMB life}. In eukaryotes, another partner seems to be involved in selenoprotein synthesis: Secp43. Although its exact role is still unclear, it has been shown that it binds to the Ser-tRNA[Sec]/SPS1/SecS complex {Allmang et al., 2009, Biochim Biophys Acta, 1790, 1415-23; Squires and Berry, 2008, IUBMB life}. Data suggests that Secp43 could be involved in promoting localization to the nucleus, or in regulating selenoproteins synthesis {Squires and Berry, 2008, IUBMB life}.</string>
 		<key>Title</key>
@@ -302,6 +302,73 @@ The predictions of both programs are then integrated to produce a unique one. Fi
 Figure &lt;$n:figure:selenoprofilesPipeline&gt; : Schema of the different steps of the selenoprofiles pipeline.</string>
 		<key>Title</key>
 		<string>Selenoprofiles</string>
+	</dict>
+	<key>37</key>
+	<dict>
+		<key>Notes</key>
+		<string></string>
+		<key>Synopsis</key>
+		<string></string>
+		<key>Text</key>
+		<string>Selenoproteins exist in all domains of life (prokaryotes, archaea and eukaryotes) However, it seems that higher plants and fungi have no selenoproteins. Yet, several photosynthetic microorganisms possess selenoproteins (about 10 have been found in the green algae Chlamydomonas reinhardtii {Novoselov et al., 2002, EMBO J, 21, 3681}, mainly peroxydases). Given the high nucleophilicity of Sec compared to Cys, many selenoproteins are in fact redox proteins, in which Sec is used to coordinate a redox- active metal (molybdenum, nickel or tungsten). Examples of selenoproteins are formate dehydrogenase, glutathione peroxidase or thioredoxin reductase. Sec is then found almost exclusively in the catalytic sites of enzymes. It is interesting to note that a high number of selenoproteins have a homologue with Cys at the Sec position in other organisms {Castellano et al., 2004, EMBO Rep, 5, 71-7}, suggesting that not all organisms require selenium. The evolution of the Sec-encoding trait is subject to debate, but since this trait is present in organisms of the three domains of life, it is thought that the last universal common ancestor had this trait, which was subsequently lost in numerous lineages during evolution, and was regained by some lineages through gene transfer {Zhang et al., 2006, Genome Biol, 7, R94}. Furthermore, the scattered distribution of Sec containing homologues for a given family suggests that Sec incorporation is a “per family” event.</string>
+		<key>Title</key>
+		<string>Selenoproteomes</string>
+	</dict>
+	<key>38</key>
+	<dict>
+		<key>Notes</key>
+		<string></string>
+		<key>Synopsis</key>
+		<string></string>
+		<key>Text</key>
+		<string></string>
+		<key>Title</key>
+		<string>Bacteria Selenoproteome</string>
+	</dict>
+	<key>39</key>
+	<dict>
+		<key>Notes</key>
+		<string></string>
+		<key>Synopsis</key>
+		<string></string>
+		<key>Text</key>
+		<string>Bacterial selenoproteins are mainly redox enzymes involved in energy-yielding pathways, since these processes heavily rely on oxido-reduction reactions {Kryukov and Gladyshev, 2004, EMBO Rep, 5, 538-43; Stock and Rother, 2009, Biochim Biophys Acta, 1790, 1520-32}. Yet, selenoproteins are also found in other processes, such as antioxidant defense, redox homeostasis, or Sec biosynthesis {Kryukov and Gladyshev, 2004, EMBO Rep, 5, 538-43}. It is worth pointing out that SelD homologues containing Sec have been identified in a few bacteria {Gursinsky et al., 2000, Arch Microbiol, 174, 200-12; Kryukov and Gladyshev, 2004, EMBO Rep, 5, 538-43}. Though, when SelD is a selenoprotein, it has yet to be understood how Sec synthesis can be initiated. It seems a gram negative bacteria, Heamophilus influenzae, solves the problem by initially operating a Cys containing SelD, or by forming Sec-tRNA[Sec] in a selenophosphate independent manner {Wilting et al., 1998, Arch Microbiol, 169, 71-5}.
+Until now, a wide range of protein have a selenoprotein potential in bacteria. To this date, the bacterial selenoproteome comprises ~25 families from which the most important are Formate Dehydrogenase and other F420-reducing coenzymes, Sulfur Transferase, Heterodisulfide Reductase and other proteins involved in sulfur bond formation, Glycine and Proline Reductase, Thioredoxin, Peroxireductase, various Peroxidases, and in some cases, proteins involved in methanogenesis pathways.Bacteria also incorporate Sec in a very specific manner. The SECIS element is found near the Sec-UGA codon, just downstream of it {Kryukov and Gladyshev, 2004, EMBO Rep, 5, 538-43; Liu et al., 1998, Nucleic Acids Res, 26, 896-902; Zinoni et al., 1990, Proc Natl Acad Sci USA, 87, 4660-4}. In this case the translation machinery is thought to pause at the site of the Sec-UGA in order to allow the other factors to insert the Sec. SelB in bacteria can bind directly to the SECIS and Sec-UGA {Thanbichler and Böck, 2001, Biofactors, 14, 53-9}, thus promoting elongation in order not to stop the translation  (Figure &lt;$n:figure:bactSecInsertion&gt;). Since in bacteria the SECIS element is found in the coding region, it can be assumed that the secondary structure of the SECIS element is especially important compared to the primary structure, because of the additional coding constraints.
+
+￼
+Figure &lt;$n:figure:bactSecInsertion&gt; : Selenocysteine insertion during bacterial translation. SelB, the elongation factor, binds to the SECIS element and recruits tRNASec at the position of the UGA. Adapted from {Krol, 2002, Biochimie}</string>
+		<key>Title</key>
+		<string>Bacterial Selenoproteome</string>
+	</dict>
+	<key>40</key>
+	<dict>
+		<key>Notes</key>
+		<string></string>
+		<key>Synopsis</key>
+		<string></string>
+		<key>Text</key>
+		<string>In archaea, selenoproteins seem to be a lot less common. It is quite striking that selenoproteins seem restricted to two genera ( based on the data gathered from 56 sequenced genomes, representing 43 genera ) {Stock and Rother, 2009, Biochim Biophys Acta, 1790, 1520-32}, Methanococcus and Methanopyrus. As their name suggests, these are methanogenic organisms. It is also intriguing that the selenoproteins of these species, with the exception of SPS, are all involved in hydrogenotrophic methanogenesis. These selenoproteins are essentially Formate Dehydrogenase, F420 reducing hydrogenases, and proteins involved in thiol reactions.Strikingly, archaeal selenium metabolism seems to share both bacterial and eukaryal traits. A putative SPS has been highlighted, but has not been experimentally checked yet. Archaeal SECIS elements are not found downstream of the UGA in the coding sequence, but like in eukaryotes, in the 3'UTR {Rother et al., 2001, Biofactors, 14, 75-83}. Though, one case of SECIS like structure has be found in 5'UTR, which would be a unique feature only observed in this phylum {Rother et al., 2001, Biofactors, 14, 75-83; Stock and Rother, 2009, Biochim Biophys Acta, 1790, 1520-32}. Furthermore, as it will be developed in the next paragraph, it seems that archaeal SECIS elements do not possess non-Watson-Crick base pair associations as it is the case in eukaryotes {Krol, 2002, Biochimie}. Also, it is not known yet if EFSec binds directly to the SECIS element as in bacteria, or if it does so indirectly as in eukaryotes {Stock and Rother, 2009, Biochim Biophys Acta, 1790, 1520-32} (Figure &lt;$n:figure:archSec&gt;).
+
+￼
+Figure &lt;$n:figure:archSecInsertion&gt; : Selenium processing and Sec insertion in archaea. The SECIS element is in the 3'UTR, but no factor has been found to make the link between SelB and and the SECIS element. Adapted from {Stock and Rother, 2009, Biochim Biophys Acta, 1790, 1520-32}</string>
+		<key>Title</key>
+		<string>Archaeal Selenoproteome</string>
+	</dict>
+	<key>41</key>
+	<dict>
+		<key>Notes</key>
+		<string></string>
+		<key>Synopsis</key>
+		<string></string>
+		<key>Text</key>
+		<string>As in archaea, the SECIS element is found in the 3'UTR of the RNA. Being in an untranslated region, it is not under encoding constraints. Yet, it has been shown that factors interacting with the SECIS recognize non-Watson-Crick base pair associations in the stem {Walczak et al., 1998, RNA, 4, 74-84}. The apparent importance of this primary structure actually drives the secondary structure (Figure &lt;$n:figure:&gt;). Indeed, thanks to those non-canonical base pair associations, the stem of the SECIS adopts a particular shape essential for the binding of specific factors {Allmang et al., 2009, Biochim Biophys Acta, 1790, 1415-23}. The fact that the SECIS is not located near the Sec-UGA suggests a very complex and tightly regulated mechanism to insert Sec at the right position. In this situation, EFSec cannot directly bind to both the SECIS element and the RNA at the location of the Sec-UGA. Instead, it is recruited by SECIS binding protein 2 (SBP2) (Figure &lt;$n:figure:eukSecInsertion&gt;), which binds to both the SECIS and the ribosome {Allmang et al., 2009, Biochim Biophys Acta, 1790, 1415-23}. How exactly the SECIS/SBP2 complex recognizes a Sec-UGA is not fully understood. However, speculations can be made about the local context around the Sec-UGA, with some pattern driving the SECIS/SBP2 localization at the site of a Sec-UGA. We can also think that SBP2 binds the SECIS and the ribosome from the very beginning of the translation, recruits EFSec, thus preventing the ribosome from being released when a UGA is encountered. But then remains the question of how and under what conditions SBP2 would release EFSec, leading to ribosome release at the next UGA codon. Other data suggest that a viral RNA encoding for GPx4 possesses a SECIS element downstream of the UGA, in the coding sequence, and that it could be expressed in mammalian cells {Allmang et al., 2009, Biochim Biophys Acta, 1790, 1415-23; Mix et al., 2007, Nucleic Acids Res, 35, 414-23}. This raises the questions of how much specific the machinery of eukaryotes is, and what is the link between such apparently ancestral mechanism (until now specific to bacteria) and more complex ones.
+
+￼
+Figure &lt;$n:figure:eukSecInsertion&gt; : Selenocysteine incorporation in eukaryotes. Two selenophosphate synthetases (SPS1 and SPS2) are present. EFSec is recruited to the SECIS element by SBP2. Adapted from {Stock and Rother, 2009, Biochim Biophys Acta, 1790, 1520-32}
+
+It is also worth noting that Sec synthesis in eukaryotes relies on SPS2, which is itself a selenoprotein {Mix et al., 2007, Nucleic Acids Res, 35, 414-23}. Although it has the same role as SelD (SPS) in bacteria, an homologue called SPS1 is present, containing either a threonine or an arginine {Allmang et al., 2009, Biochim Biophys Acta, 1790, 1415-23; Chapple and Guigo, 2008, PLoS ONE}. SPS1 does not seem to play a role in selenoprotein synthesis, though, but is essential for the viability of the organisms , and has been shown to be implicated in developmental processes in drosophila {Alsina et al., 1998, Mol Gen Genet, 257, 113-23; Morey et al., 2001, Dev Biol, 238, 145-56}.The size of selenoproteomes varies greatly among eukaryotes {Lobanov et al., 2009, Biochim Biophys Acta}. It seems that the largest ones are those of aquatic organisms, whether they are plants (algae) or animals {Lobanov et al., 2007, Genome Biol, 8, R198}. In fact, the zebra fish D.rerio is thought to all the vertebrate selenoproteome, with 19 characterized selenoproteins. It has been hypothesized that blue and green algae need an additional antioxidant protection provided by the selenoproteins. Furthermore, the high availability of Se in sea water could have made possible the integration of this element in oxidoreductase enzymes. An example of very scattered distribution among species is SelU. It is present in fishes, birds, and some unicellular organisms, but is present as a Cys-containing homologue in mammals and other eukaryotes {Castellano et al., 2004, EMBO Rep, 5, 71-7}. A recently characterized family, SelJ has also such a scattered distribution among eukaryotes and has been found only in actinopterigian fishes and sea urchins. {Castellano et al., 2005, Proc Natl Acad Sci USA, 102, 16188-93}.</string>
+		<key>Title</key>
+		<string>Eukaryal Selenoproteome</string>
 	</dict>
 	<key>7</key>
 	<dict>
